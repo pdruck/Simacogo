@@ -1,5 +1,5 @@
 # Simacogo
-Simacogo is basically a combination of Connect-Four and Go and played on a 9x9 grid. 
+Simacogo is a combination of Connect-Four and Go, played on a 9x9 grid. 
 
 The players take turns dropping their respective pieces ('O' or 'X') into a column (1-9).  2 points are given for two
 of one player's pieces that are next to each other (up, down, left, right) and 1 point is given for two of one player's pieces
