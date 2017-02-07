@@ -8,7 +8,7 @@ down and to the left).
 
 The game is over when the entire board is filled and the winner is the person with the most points.
 
-Before the game starts, the user will be required to type in a number of plies.  The number of plies is how far down the tree of game states the computer will search in order to get their ideal move.  For example, if the number of plies was 3, the computer player will look 3 moves ahead to find the *next move* that will give them the best results *3 moves* down the road.
+Before the game starts, the user will be required to type in a number of plies.  The number of plies is how far down the tree of game states the computer will search in order to get their ideal move.  For example, if the number of plies were 3, then the computer player would look 3 moves ahead to find the *next move* that will give them the best results *3 moves* down the road.
 
 ###Initial State
 ~~~~
