@@ -37,7 +37,7 @@ O X O O . . . . .
 ~~~~
 ###Example Ending State
 ~~~~
-O Score:	139	 <-- O wins
+O Score:	139	 <-- O player wins
 X Score:	116
 1 2 3 4 5 6 7 8 9
 X X X X X X X X O
