@@ -7,6 +7,7 @@ that are oriented diagonally (up and to the right, down and to the right, up and
 down and to the left). 
 
 The game is over when the entire board is filled and the winner is the person with the most points.
+###Examples
 ~~~~
 Initial state:
 1 2 3 4 5 6 7 8 9 <-- Column Number
