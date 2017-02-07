@@ -10,6 +10,10 @@ public class Game {
 	static int numPlies;
 	State currentState;
 	
+	/**
+	 * Creates a Game with a Human and Computer player.  Initializes Human to player0 and Computer to player1.
+	 * Doesn't initialize numPlies.
+	 */
 	public Game() {
 		players = new Player[2];
 		pieces = new char[2];
