@@ -7,7 +7,7 @@ that are oriented diagonally (up and to the right, down and to the right, up and
 down and to the left). 
 
 The game is over when the entire board is filled and the winner is the person with the most points.
-
+~~~~
 Initial state:
 1 2 3 4 5 6 7 8 9 <-- Column Number
 . . . . . . . . .
@@ -19,7 +19,8 @@ Initial state:
 . . . . . . . . .
 . . . . . . . . .
 . . . . . . . . . <-- Piece drops to the bottom when placed
-
+~~~~~
+~~~~
 Example state:
 O Score:	2
 X Score:	3
@@ -33,7 +34,8 @@ X Score:	3
 X . . . . . . . .
 X . . . . . . . .
 O X O O . . . . .
-
+~~~~
+~~~~
 Example ending state:
 O Score:	139	 <-- O wins
 X Score:	116
@@ -47,3 +49,4 @@ X O X O O O O X X
 O X X O O O O O O
 X O X O O O O O X
 O X X X O O O O O
+~~~~
