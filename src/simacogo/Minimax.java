@@ -24,7 +24,7 @@ public final class Minimax {
 	 * @param numPlies	the depth of the tree
 	 * @param isMax		true if this is a maximizing state
 	 * @param player	the Player making use of the minimax algorithm
-	 * @return			
+	 * @return bestValue
 	 */
 	public static double minimax(State state, int numPlies, boolean isMax, Player player) {	
 		State bestState = null;

@@ -57,7 +57,7 @@ public class PrintGame extends Game {
 		}
 		
 		// Human turn
-		if(!isTerminal) {
+		if(!finished && !isTerminal) {
 			this.takeTurnHuman(getHumanPlayer(), turnInput);
 			printCurrentState();
 		}
@@ -167,6 +167,7 @@ public class PrintGame extends Game {
 	public void printWinner() throws IOException {
 		reader.close();
 		System.out.println("-----------------Game Over-----------------");
+		System.out.println("                  (" + numPlies + "-ply)               ");
 		printScore();
 		int scoreHuman = (int)Value.playerScore(Game.getHumanPlayer(), this.currentState);
 		int scoreComputer = (int)Value.playerScore(Game.getComputerPlayer(), this.currentState);
