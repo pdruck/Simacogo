@@ -92,7 +92,7 @@ public class PrintGame extends Game {
 		
 		do {
 			failed = false;
-			System.out.print("Please enter the number of plies the computer should search (1-7): ");
+			System.out.print("Please enter the number of plies the computer should search (1-10): ");
 			choice = reader.readLine();
 			if(choice.equals("")) {
 				failed = true;
@@ -106,8 +106,8 @@ public class PrintGame extends Game {
 					System.out.println("Please enter a digit as the number of plys.");
 					failed = true;
 				}
-				if(!failed && numPlies > 7 || numPlies < 1) {
-					System.out.println("Please enter a digit between 1 and 7 as the number of plys.");
+				if(!failed && numPlies > 10 || numPlies < 1) {
+					System.out.println("Please enter a digit between 1 and 10 as the number of plys.");
 					failed = true;
 				}
 			}
@@ -145,7 +145,7 @@ public class PrintGame extends Game {
 						col = Character.getNumericValue(firstChar);
 					}
 					else {
-						System.out.println("Please enter a digit (1-7) as the column #.");
+						System.out.println("Please enter a digit (1-9) as the column #.");
 						failed = true;
 					}
 
