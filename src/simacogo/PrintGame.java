@@ -69,7 +69,7 @@ public class PrintGame extends Game {
 		isTerminal = this.currentState.isTerminalState();
 		
 		// Computer turn
-		if(!isTerminal) {
+		if(!finished && !isTerminal) {
 			this.takeTurnComputer(getComputerPlayer());
 			printCurrentState();
 		}
