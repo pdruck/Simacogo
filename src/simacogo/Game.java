@@ -31,6 +31,9 @@ public class Game {
 	 * @param numPlies 	the number of plies that the computer should search through (depth of minimax algorithm)
 	 */
 	public Game(int numPlies) {
+		//this = new Game();
+		//Game.numPlies = numPlies;
+		
 		players = new Player[2];
 		pieces = new char[2];
 		players[0] = new HumanPlayer();
